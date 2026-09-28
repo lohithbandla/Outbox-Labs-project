@@ -1,8 +1,9 @@
 {
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/index.html"
-        }
-    ]
+  "rewrites": [
+    {
+      "source": "/admin/queues/:path*",
+      "destination": "https://outbox-labs-project-omza.onrender.com/admin/queues/:path*"
+    },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
